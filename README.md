@@ -1,12 +1,17 @@
-Asynchronous Logger System
-This project implements an asynchronous logging system in Python, designed to handle logging operations efficiently in multi-threaded environments. The logger ensures thread safety, supports log rotation based on file size, and processes log messages asynchronously using a dedicated background thread.
+# **Asynchronous Logger System**
 
-Features
-Singleton Design Pattern: Ensures only one instance of the logger exists.
-Thread-Safe Logging: Allows multiple threads to log messages concurrently without conflicts.
-Asynchronous Logging: Decouples log writing from application logic, improving performance.
-Log Rotation: Automatically rotates log files when they exceed a specified size, maintaining backup logs.
-Graceful Shutdown: Ensures all log messages are processed before the program exits.
+This project implements an **asynchronous logging system** in Python, designed to handle logging operations efficiently in multi-threaded environments. The logger ensures thread safety, supports log rotation based on file size, and processes log messages asynchronously using a dedicated background thread.
+
+---
+
+## **Features**
+- **Singleton Design Pattern**: Ensures only one instance of the logger exists.
+- **Thread-Safe Logging**: Allows multiple threads to log messages concurrently without conflicts.
+- **Asynchronous Logging**: Decouples log writing from application logic, improving performance.
+- **Log Rotation**: Automatically rotates log files when they exceed a specified size, maintaining backup logs.
+- **Graceful Shutdown**: Ensures all log messages are processed before the program exits.
+
+---
 
 <!-- Getting Started
 
